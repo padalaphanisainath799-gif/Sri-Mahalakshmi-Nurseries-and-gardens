@@ -1,0 +1,246 @@
+# Sri Mahalakshmi Nurseries and Gardens – Homepage Template
+
+Use the following HTML code for your nursery homepage.
+
+Save the file as:
+
+```text
+index.html
+```
+
+Then open it in your browser.
+
+---
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sri Mahalakshmi Nurseries and Gardens</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background:#f4fff4;
+        }
+
+        header{
+            background:green;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#145214;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        .hero{
+            background-image:url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735');
+            background-size:cover;
+            background-position:center;
+            height:400px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            text-align:center;
+        }
+
+        .hero h1{
+            font-size:50px;
+            margin:0;
+        }
+
+        .hero p{
+            font-size:22px;
+        }
+
+        .btn{
+            background:white;
+            color:green;
+            padding:12px 25px;
+            text-decoration:none;
+            border-radius:5px;
+            font-weight:bold;
+        }
+
+        .section{
+            padding:50px;
+            text-align:center;
+        }
+
+        .plants{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background:white;
+            width:250px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px lightgray;
+        }
+
+        footer{
+            background:green;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sri Mahalakshmi Nurseries</h1>
+    <p>All Variety of Plants and Trees Available Here</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Plants</a>
+    <a href="#">About</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Welcome to Sri Mahalakshmi Nurseries</h1>
+    <p>
+        Fruits Plants • Flower Plants • Avenue Plants • Trees
+    </p>
+    <a href="tel:9440530445" class="btn">Call Now</a>
+</div>
+
+<div class="section">
+    <h2>Plants Available</h2>
+
+    <div class="plants">
+
+        <div class="card">
+            <h3>Fruit Plants</h3>
+            <p>Mango, Guava, Sapota, Coconut and many more fruit plants available.</p>
+        </div>
+
+        <div class="card">
+            <h3>Flower Plants</h3>
+            <p>Rose, Jasmine, Hibiscus and seasonal flowering plants available.</p>
+        </div>
+
+        <div class="card">
+            <h3>Avenue Plants</h3>
+            <p>Decorative avenue plants and garden plants available for landscaping.</p>
+        </div>
+
+        <div class="card">
+            <h3>Trees</h3>
+            <p>All types of shade trees and greenery plants available here.</p>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div class="section">
+    <h2>About Our Nursery</h2>
+    <p>
+        Proprietor: <strong>B. Subba Rao</strong><br><br>
+        Sri Mahalakshmi Nurseries provides all varieties of plants and trees.
+        We supply healthy fruit plants, flower plants, avenue plants, and garden trees
+        at affordable prices.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Our Plant Gallery</h2>
+
+    <div class="plants">
+
+        <div class="card">
+            <img src="fruitplants.jpg" width="100%" style="border-radius:10px;">
+            <h3>Fruit Plants</h3>
+        </div>
+
+        <div class="card">
+            <img src="flowerplants.jpg" width="100%" style="border-radius:10px;">
+            <h3>Flower Plants</h3>
+        </div>
+
+        <div class="card">
+            <img src="trees.jpg" width="100%" style="border-radius:10px;">
+            <h3>Trees & Avenue Plants</h3>
+        </div>
+
+    </div>
+</div>
+
+<div class="section">
+    <h2>Find Us on Google Maps</h2>
+
+    <iframe
+        src="https://www.google.com/maps"
+        width="100%"
+        height="350"
+        style="border:0; border-radius:10px;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</div>
+
+<footer>
+    <h3>Contact Sri Mahalakshmi Nurseries</h3>
+
+    <p><strong>Proprietor:</strong> B. Subba Rao</p>
+
+    <p><strong>Phone:</strong> 9440530445</p>
+    <p><strong>Phone:</strong> 9440113382</p>
+    <p><strong>Phone:</strong> 7993619297</p>
+
+    <p>
+        All Variety of Plants and Trees Available Here<br>
+        Fruits Plants | Flower Plants | Avenue Plants | Trees
+    </p>
+
+    <p>Sri Mahalakshmi Nurseries</p>
+</footer>
+
+<a href="https://wa.me/919440530445" class="whatsapp" target="_blank">
+    WhatsApp Us
+</a>
+
+<style>
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 22px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0px 0px 10px gray;
+}
+</style>
+
+</body>
+</html>
+```
+
+
